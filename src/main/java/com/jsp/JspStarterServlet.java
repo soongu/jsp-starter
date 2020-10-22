@@ -10,13 +10,12 @@ import java.io.PrintWriter;
 
 @WebServlet(
         name = "hello",
-        urlPatterns = "/hello"
+        urlPatterns = "/*"
 )
 public class JspStarterServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        PrintWriter writer = resp.getWriter();
-        writer.println("Hello World!");
+        System.out.println("Welcome to my web-app");
     }
 }
