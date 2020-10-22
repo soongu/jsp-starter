@@ -1,4 +1,5 @@
 # Jsp / Servlet Starter Template
+## Java version: OpenJDK 11 
 - pom.xml 설정
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
